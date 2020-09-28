@@ -1,0 +1,31 @@
+{
+	"name": "@mybonus-com/eslint-config",
+	"version": "1.0.0",
+	"description": "ESLint configuration for MyBonus",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "johan.kanefur@mybonus.com",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mybonus-com/eslint-config.git"
+	},
+	"dependencies": {
+		"@rushstack/eslint-patch": "^1.0.3",
+		"@typescript-eslint/eslint-plugin": "^4.2.0",
+		"@typescript-eslint/parser": "^4.2.0",
+		"eslint-config-prettier": "^6.12.0",
+		"eslint-plugin-prettier": "^3.1.4"
+	},
+	"peerDependencies": {
+		"eslint": ">= 7",
+		"prettier": ">= 2"
+	},
+	"devDependencies": {
+		"eslint": "^7.10.0",
+		"prettier": "^2.1.2",
+		"typescript": "^4.0.3"
+	}
+}
